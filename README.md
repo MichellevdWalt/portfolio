@@ -1,4 +1,6 @@
-My portfolio
+My portfolio app.
+
+Uses node.js, express app with pug.
 
 To run:
  $ npm install
