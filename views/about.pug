@@ -1,0 +1,46 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1 Michelle van der Walt
+
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        .portfolio-bio
+          p
+            |I am an ambitious, passionate, determined and glass-half-full individual jumping into a new career.
+            |After some family setbacks, combined with the current lock-down due to the Corona virus, I decided that now would be the ideal time for me to change careers like I've wanted for so long. 
+            |<br /><br />
+            |I completed my Treehouse Full Stack Javascript techdegree in July 2020. A great foundation for my learning journey.
+            |<br /><br />
+            a(href="/") Please click here for my latest projects.
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        ul
+          li Vanilla Javascript
+          li HTML
+          li CSS
+          li React
+          li SQL
+          li Express
+          li Pug 
+          li AJAX
+
+        h6 Contact Info
+
+        ul
+          li +27761858689
+          li michellevdwalt13@gmail.com
+
+        a.button.expanded(target= "_blank" href='https://www.linkedin.com/in/michelle-van-der-walt-629640170/') LinkedIn
+        a.button.expanded(target= "_blank" href='https://github.com/MichellevdWalt') GitHub
+        
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  
