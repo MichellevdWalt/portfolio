@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/0a56554c-1f60-4b50-875f-c1be71743501/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/michellevdwalt",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/0a56554c-1f60-4b50-875f-c1be71743501/resourceGroups/michellevdwalt-rg/providers/Microsoft.Web/sites/michellevdwalt"
 }
