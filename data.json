@@ -1,0 +1,120 @@
+{ "projects": [
+    {"id": "0",
+     "project_name": "Random Quote Generator",
+     "description": "A website that generates a random quote on a random background colour. This happens automatically or when the user clicks on the button",
+     "technologies": ["Vanilla JavaScript", "HTML", "CSS"],
+     "live_link": "https://michellevdwalt.github.io/randomquotegenerator/randomquotegenerator/",
+     "github_link": "https://github.com/MichellevdWalt/randomquotegenerator.git",
+     "image_urls": ["../static/images/unit1_1.PNG", "../static/images/unit1_2.PNG"]
+
+    },
+    {"id": "1",
+        "project_name": "List Pagination and Search",
+        "description": "A page to paginate a list of students to 10 per page. A search bar filters the students per user input",
+        "technologies": ["Vanilla JavaScript", "HTML", "CSS"],
+        "live_link": "https://michellevdwalt.github.io/list_pagination_and_filtering_mvdw/list_pagination_and_filtering_mvdw/#",
+        "github_link": "https://github.com/MichellevdWalt/list_pagination_and_filtering_mvdw.git",
+        "image_urls": ["../static/images/unit2_1.PNG", "../static/images/unit2_2.PNG"]
+        
+    },
+    {"id": "2",
+    "project_name": "Interactive Form",
+    "description": "A basic form for a mock conference. Checks the validity of data entered and displays a message accordingly. The other text field only displays when the user has chosen other from the dropdown menu.  The color drop down list is only displayed when the user has chosen a theme and the colors are disabled according to the theme choice. A live calculator calculates the fees payable according to the users choice of activities. The payment method information is only shown for the chosen option from the drop-down list.",
+    "technologies": ["Vanilla JavaScript", "HTML", "CSS"],
+    "live_link": "https://michellevdwalt.github.io/interactive-form_mvdw/interactive-form_mvdw/",
+    "github_link": "https://github.com/MichellevdWalt/interactive-form_mvdw.git",
+    "image_urls": ["../static/images/unit3_1.PNG", "../static/images/unit3_2.PNG"]
+    
+    },
+    {"id": "3",
+    "project_name": "OOP Guess the Phrase Game",
+    "description": "A guess the phrase game. The user types or clicks one of the on-screen letters to guess the phrase. If wrong, the user loses a heart and the letter disables and turns red. If correct the letter displays in the phrase and the letter on the keyboard is disabled. If the user guessed wrong 5 times, a lost page is displayed with a button to reset the game with a new phrase. If the player guessed the phrase correcly a winning page is displayed with a button to restart the game with a new phrase.",
+    "technologies": ["Vanilla JavaScript", "HTML", "CSS"],
+    "live_link": "https://michellevdwalt.github.io/oop_game_mvdw/oop_game_mvdw/",
+    "github_link": "https://github.com/MichellevdWalt/oop_game_mvdw.git",
+    "image_urls": ["../static/images/unit4_1.PNG", "../static/images/unit4_2.PNG", "../static/images/unit4_3.PNG", "../static/images/unit4_4.PNG"]
+    
+    },
+    {"id": "4",
+        "project_name": "Public API request",
+        "description": "A page that fetches 12 random users from a mock-user API. It displays them on the page as cards. Clicking on one of the cards opens a modal window with additional info for the person. The modal window has previous and next buttons to flip between the cards. The buttons are disabled as needed when the first and last card is reached. There is a search bar to filter the 12 cards. Refreshing the page displays a new set of 12 random cards with data from the public API",
+        "technologies": ["Vanilla JavaScript", "HTML", "CSS", "AJAX", "Asynchronous JavaScript"],
+        "live_link": "https://michellevdwalt.github.io/public_api_request/public_api_request/",
+        "github_link": "https://github.com/MichellevdWalt/public_api_request.git",
+        "image_urls":  ["../static/images/unit5_1.PNG", "../static/images/unit5_2.PNG", "../static/images/unit5_3.PNG"]  
+    },
+    {"id": "5",
+    "project_name": "React Gallery",
+    "description": "A React app that uses the Flickr API to get photos and processes them into a gallery.",
+    "technologies": ["Javascript", "React" , "axios"],
+    "live_link": "https://michellevdwalt.github.io/react_gallery/",
+    "github_link": "https://github.com/MichellevdWalt/react_gallery_.git",
+    "image_urls":  ["../static/images/unit7_1.PNG", "../static/images/unit7_2.PNG", "../static/images/unit7_3.PNG", "../static/images/unit7_4.PNG"]
+    },
+    {"id": "6",
+    "project_name": "SQL library manager",
+    "description": "A library manager website that processes data from a database using sequelize. It has full CRUD functionality.",
+    "technologies": ["JavaScript", "Sequelize", "Sqlite", "Express", "Pug"],
+    "live_link": "",
+    "github_link": "https://github.com/MichellevdWalt/sql_library",
+    "image_urls":  ["../static/images/unit8_1.PNG", "../static/images/unit8_2.PNG", "../static/images/unit8_3.PNG", "../static/images/unit8_4.PNG"]
+    },
+    {"id": "7",
+    "project_name": "REST API",
+    "description": "A self created API that connects to a database with two models - courses and users. The /api/courses GET route is not protected and can be received by any user. Access to CRUD /api/users as well as create, update and delete of /api/courses/:id is protected and the user needs to be authorized or access will be denied. ",
+    "technologies": ["JavaScript", "Express", "Bcryptjs", "Rest api", "Postman" , "Sequelize", "Sqlite"],
+    "live_link": "",
+    "github_link": "https://github.com/MichellevdWalt/rest_api",
+    "image_urls":  ["../static/images/unit9_1.PNG", "../static/images/unit9_2.PNG", "../static/images/unit9_3.PNG"]
+    },
+    {"id": "8",
+    "project_name": "React App with API - Courses Website",
+    "description": "A full react app that uses the REST API created in the previous project. It enables a user to sign up or sign in and then create, update or delete a course. All users can view the list of courses and course detail, but buttons are dynamically hidden for unauthorized users to edit or delete courses they do not own. Privateroutes and a forbidden route ensures the user is notified that the specific route they are trying to access is forbidden. A switch functionality and notfound route displays an error when a route does not exist. User details are persisted in a cookie to keep them signed in for 1 day after refresh or tab closure. Please note that this project is for demo purposes only and needs additional security measures before going live.",
+    "technologies": ["Javascript", "React" , "Rest API", "js-cookie", "Express", "Bcryptjs", "Sequelize", "Sqlite"],
+    "live_link": "",
+    "github_link": "https://github.com/MichellevdWalt/react_gallery_.git",
+    "image_urls":  ["../static/images/unit10_1.PNG", "../static/images/unit10_2.PNG", "../static/images/unit10_3.PNG", "../static/images/unit10_4.PNG", "../static/images/unit10_5.PNG", "../static/images/unit10_6.PNG", "../static/images/unit10_7.PNG", "../static/images/unit10_8.PNG", "../static/images/unit10_9.PNG"]
+    },
+    {"id": "9",
+    "project_name": "Python Guess the Number Game",
+    "description": "A simple command-line python guess the number game. It allows the user to either choose a range or it has a default range. It also displays the user's high score and includes error handling for user input.",
+    "technologies": ["Python"],
+    "live_link": "",
+    "github_link": "https://github.com/MichellevdWalt/guessingGame_python",
+    "image_urls":  ["../static/images/python_unit1.PNG", "../static/images/python_unit1_3.PNG"]
+    },
+    {"id": "10",
+    "project_name": "Python Basketball Stats Tool",
+    "description": "A simple command-line python basketball stats tool. In this project I wrote a program that reads from the 'constants' data (PLAYERS and TEAMS) in constants.py. This data was cleaned and translated into a new collection and the fields changed to something that makes more sense for Python to do its comparisons. The user is now able to get stats from different teams. Basic error handling is done on user input. ",
+    "technologies": ["Python"],
+    "live_link": "",
+    "github_link": "https://github.com/MichellevdWalt/basketball_stats",
+    "image_urls":  ["../static/images/python_unit2_1.PNG", "../static/images/python_unit2_2.PNG"]
+    },
+    {"id": "11",
+    "project_name": "Python Guess The Phrase OOP Game",
+    "description": "A basic python OOP guess the phrase game. A blank phrase is displayed and the user guesses one letter at a time with 5 lives. User name is used throughout for a personalised experience. Modular coding was practiced along with imports and class creation and initialising. Basic error handling for user input.",
+    "technologies": ["Python", "OOP", "Python Classes", "Error handling"],
+    "live_link": "",
+    "github_link": "https://github.com/MichellevdWalt/phrase_guess",
+    "image_urls":  ["../static/images/python_unit3_1.PNG", "../static/images/python_unit3_2.PNG", "../static/images/python_unit3_3.PNG", "../static/images/python_unit3_4.PNG"]
+    },
+    {"id": "12",
+    "project_name": "Python Inventory Tool",
+    "description": "A basic Python command-line inventory tool. Data is imported to the database(db) from a .csv file. Double entries are checked and only the latest information written to the db. The user has the choice whether to view the details of this import. The user can then choose to create a new product, view a product or back up the database.(To a .csv file). Basic error handling and validation for user input.",
+    "technologies": ["Python", "Peewee", "Sqlite3", "csv"],
+    "live_link": "",
+    "github_link": "https://github.com/MichellevdWalt/inventory",
+    "image_urls":  ["../static/images/python_unit4_1.PNG", "../static/images/python_unit4_2.PNG", "../static/images/python_unit4_3.PNG", "../static/images/python_unit4_4.PNG", "../static/images/python_unit4_5.PNG", "../static/images/python_unit4_6.PNG"]
+    },
+    {"id": "13",
+    "project_name": "Python Learning Journal",
+    "description": "This learning journal lets you register as a user and then add entries to the journal. The program renders a registration or new entry form and then creates the necessary fields in the sqlite db. All fields have the necessary validation. The home page displays a short version of available entries and a detail page shows details of a specific entry. Details include a title, date, time spent, what you learned, resources to remember(These are converted to clickable hyperlinks that open in a new tab where applicable.) and tags. It also has an edit and delete function, of which the buttons only display if the current user created the entry. It also needs user validation, so even manual routing would end up at a 401. If an entry does not exist, it routes the user to a 404 page. Tags can be entered in the new entry form or edit form. These tags are clickable in the home page as well as the details page, which routes the user to a page showing all entries with said tag.",
+    "technologies": ["Python", "Flask", "Flask Bcrypt", "Flask login", "Wtforms", "Flask Wtf", "Peewee", "Sqlite3", "Models", "Macros"],
+    "live_link": "",
+    "github_link": "https://github.com/MichellevdWalt/journal",
+    "image_urls":  ["../static/images/python_unit5_1.PNG", "../static/images/python_unit5_2.PNG", "../static/images/python_unit5_3.PNG", "../static/images/python_unit5_4.PNG", "../static/images/python_unit5_5.PNG", "../static/images/python_unit5_6.PNG", "../static/images/python_unit5_7.PNG", "../static/images/python_unit5_8.PNG", "../static/images/python_unit5_9.PNG", "../static/images/python_unit5_10.PNG"]
+    }
+    ]
+
+}
